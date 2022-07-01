@@ -7,7 +7,7 @@ This project contains Angular 12 as client and NodeJS with NestJS framework as a
 In order to start the the server:
 1. Go the the server folder
 2. Run `npm install`
-3. Run `npm build`
+3. Run `npm run build`
 4. Run `npm run start`
 5. Server URL is: http://localhost:3000/
 
