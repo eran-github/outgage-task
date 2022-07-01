@@ -1,0 +1,14 @@
+[
+    {
+        "campaign_id" : "ABC",
+        "contact_id" : "KLM"
+    },
+    {
+        "campaign_id" : "ABC",
+        "contact_id" : "NOP"
+    },
+    {
+        "campaign_id" : "EFG",
+        "contact_id" : "NOP"
+    }    
+]

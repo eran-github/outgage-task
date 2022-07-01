@@ -1,0 +1,19 @@
+<button (click) = "getStats()" class = "btn btn-primary"> Get Stats</button> 
+
+<div *ngIf="isDataAvailable">
+    <table matSort (matSortChange)="sortData($event)">
+        <tr>
+        <th mat-sort-header="campaignId">campaign</th>
+        <th mat-sort-header="contactId">contact</th>        
+        <th mat-sort-header="eventName">event</th>
+        <th mat-sort-header="time">time</th>
+        </tr>
+    
+        <tr *ngFor="let row of sortedData">
+        <td>{{row.campaignId}}</td>
+        <td>{{row.contactId}}</td>
+        <td>{{row.eventName}}</td>
+        <td>{{row.time}}</td>
+        </tr>
+    </table> 
+</div>

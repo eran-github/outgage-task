@@ -1,0 +1,20 @@
+[
+	{
+		"first_name" : "First name 1",
+		"last_name" : "Last name 1",
+		"email" : "email1@example.com",
+		"id" : "KLM"
+	},	
+	{
+		"first_name" : "First name 2",
+		"last_name" : "Last name 2",
+		"email" : "email2@example.com",
+		"id" : "NOP"
+	},
+	{
+		"first_name" : "First name 3",
+		"last_name" : "Last name 3",
+		"email" : "email3@example.com",
+		"id" : "QRS"
+	}
+]

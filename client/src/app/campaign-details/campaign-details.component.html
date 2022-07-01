@@ -1,0 +1,24 @@
+<div *ngIf="campaign && !isSignup">
+    <h3> View campaign Details</h3>
+    <div ng-show="false" #divElements>
+        <div >
+            <label> <b> Campaign Name: </b></label> {{campaign.name}}
+        </div>
+        <div>
+            <label> <b> Campaign Message: </b></label> {{campaign.msg}}
+        </div> 
+        <button (click) = "sendClickEvent()" class = "btn btn-primary"> Sign me up</button>  
+    </div> 
+</div>
+<div *ngIf="isSignup">
+    <form #myform = "ngForm" (ngSubmit) = "signup(myform)" >
+        <input type = "text" name = "first_name" placeholder = "First name" ngModel>
+        <br/>
+        <input type = "text" name = "last_name" placeholder = "Last name" ngModel>
+        <br/>
+        <input type = "email" name = "email" placeholder = "Email" ngModel>
+        <br/>
+        <input type = "submit" value = "Send" class = "btn btn-primary">
+    </form>
+
+</div>

@@ -1,0 +1,20 @@
+[
+	{
+		"id": "ABC",
+		"name": "campaign1",
+		"msg":  "campaign1 msg",
+		"color": ["RED","GREEN","BLUE"]		    		
+	},
+	{
+		"id": "EFG",
+		"name": "campaign2",
+		"msg":  "campaign2 msg",
+		"color": ["RED","GREEN","BLUE"]		    	
+	},
+	{
+		"id": "HIJ",
+		"name": "campaign3",
+		"msg":  "campaign3 msg",
+		"color": ["RED","GREEN","BLUE"]		    		
+	}	
+]
